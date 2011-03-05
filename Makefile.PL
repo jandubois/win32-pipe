@@ -1,3 +1,4 @@
+use 5.006; #perl 5.6 required by use warnings;
 use strict;
 use warnings;
 use Config qw(%Config);
