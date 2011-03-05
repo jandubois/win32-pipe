@@ -208,11 +208,11 @@ To use this extension, follow these basic steps. First, you need to
 
 Then you need to create a server side of a named pipe:
 
-    $Pipe = new Win32::Pipe("My Pipe Name");
+    $Pipe = Win32::Pipe->new("My Pipe Name");
 
 or if you are going to connect to pipe that has already been created:
 
-    $Pipe = new Win32::Pipe("\\\\server\\pipe\\My Pipe Name");
+    $Pipe = Win32::Pipe->new("\\\\server\\pipe\\My Pipe Name");
 
     NOTE: The "\\\\server\\pipe\\" is necessary when connecting
           to an existing pipe! If you are accessing the same
