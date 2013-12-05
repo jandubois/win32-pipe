@@ -56,6 +56,10 @@ PIPE.PM HISTORY:
 	- move test.bat, Client.pl and Server.pl into eg/ subdirectory to
 	  prevent the scripts from being installed
 
+2013.12.04 Jan Dubois <jand@activestate.com> (v0.025)
+	- Fix required perl version 5.6 -> 5.006.
+	- Add Github repo link to META.yml
+
 PIPE.PLL HISTORY:
 ----------------
 96.06.10 Dave Roth <rothd@roth.net>
